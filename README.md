@@ -5,6 +5,16 @@ O projeto possui uma interface de chat, sistema de conversas, armazenamento do h
 
 > Este projeto foi desenvolvido para execução local. Para utilizá-lo, é necessário configurar uma chave própria da API do Google Gemini e um banco de dados MySQL.
 
+# Demonstração
+
+### Interface principal
+
+![Interface principal](imagens/chat.png)
+
+### Assistente por voz
+
+![Assistente por voz](imagens/voz.png)
+
 ## Funcionalidades
 
 ### Chat com IA
