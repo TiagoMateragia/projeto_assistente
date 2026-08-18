@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AGA</title>
+
+    <link rel="shortcut icon" href="../imagens/logo_aga.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="chat">
+
+        <!-- =========================
+             BARRA LATERAL
+        ========================== -->
+
+        <aside class="barra-lateral">
+
+            <div class="topo-lateral">
+
+                <h2>AGA</h2>
+
+                <button
+                    id="btnNovaConversa"
+                    type="button"
+                >
+                    + Nova conversa
+                </button>
+
+            </div>
+
+
+            <div
+                class="lista-conversas"
+                id="listaConversas"
+            >
+            </div>
+
+        </aside>
+
+
+        <!-- =========================
+             CHAT
+        ========================== -->
+
+        <section class="area-chat">
+
+            <header class="cabecalho">
+
+                <div>
+
+                    <h1>AGA</h1>
+
+                    <p>
+                        Assistente pessoal
+                    </p>
+
+                </div>
+
+            </header>
+
+
+            <section
+                class="mensagens"
+                id="mensagens"
+            >
+
+                <div class="mensagem jarvis">
+
+                    <div class="conteudo">
+
+                        <span class="nome">
+                            AGA
+                        </span>
+
+                        <p>
+                            Olá. Como posso ajudar?
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <footer class="area-input">
+
+                <input
+                    type="text"
+                    id="inputMensagem"
+                    placeholder="Digite sua pergunta..."
+                    autocomplete="off"
+                >
+
+                <button
+                    id="btnEnviar"
+                    type="button"
+                >
+                    ➤
+                </button>
+
+                <button
+                    id="btnVoz"
+                    type="button"
+                    title="Abrir assistente de voz"
+                >
+                    🎤
+                </button>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
